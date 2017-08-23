@@ -29,7 +29,7 @@ For first time contributors, it's recommended to work on issues marked `Priority
 1. Create a fork of the repo.
 2. Browse open [issues](https://github.com/systers/volunteers-iOS/issues) and select one you want to attempt.
 3. Make your changes for the issue on your fork of the repo as a new branch.
-4. Make a pull request to the Systers [development branch](https://github.com/systers/volunteers-iOS/tree/development) for the project. Don't forget to tag the issue you're fixing in your pull request.
+4. Make a pull request to the Systers [development branch](https://github.com/systers/volunteers-iOS/tree/development) for the project. Don't forget to tag the issue you're fixing in your pull request and the [GSoC mentors and student](#maintainers-and-contributors) as reviewers for your pull request.
 
 Once you've made a pull request, it will be reviewed by at least one of the project maintainers or contributors. If any changes are required, the reviewer will make requested changes on the pull request. In this case, you should address the requested changes so that the pull request will be approved. When the pull request is approved, it will be merged onto the project.
 
