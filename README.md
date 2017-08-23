@@ -35,7 +35,7 @@ Once you've made a pull request, it will be reviewed by at least one of the proj
 
 ### Getting Help
 
-If you need help you can post your question in the `#vola` channel on the [Systers Open Source Slack](http://systers.io/slack-systers-opensource/). You can tag `@connie` in the channel if you don't get a response to your question.
+If you need help, you should first consult the available project documentation on the [wiki](https://github.com/systers/volunteers-iOS/wiki). If the wiki doesn't answer your question, you can post a question in the `#vola` channel on the [Systers Open Source Slack](http://systers.io/slack-systers-opensource/). You can tag `@connie` in the channel if you don't get a response to your question.
 
 ### Maintainers and contributors
 
