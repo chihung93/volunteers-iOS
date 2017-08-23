@@ -24,14 +24,48 @@ You may get an error when trying to log into Facebook if you are not on the list
 
 If you're interested in contributing to the project, follow these steps:
 
-For first time contributors, it's recommended to work on issues marked `Priority: LOW` or [unit tests](https://github.com/systers/volunteers-iOS/tree/development/VOLA/VOLATests).
+>For first time contributors, it's recommended to work on issues marked `Priority: LOW` or writing additional [unit tests](https://github.com/systers/volunteers-iOS/tree/development/VOLA/VOLATests) to improve code coverage.
 
 1. Create a fork of the repo.
 2. Browse open [issues](https://github.com/systers/volunteers-iOS/issues) and select one you want to attempt.
 3. Make your changes for the issue on your fork of the repo as a new branch.
-4. Make a pull request to the Systers [development branch](https://github.com/systers/volunteers-iOS/tree/development) for the project. Don't forget to tag the issue you're fixing in your pull request and the [GSoC mentors and student](#maintainers-and-contributors) as reviewers for your pull request.
+4. Make a pull request to the Systers [development branch](https://github.com/systers/volunteers-iOS/tree/development) for the project. Your pull requests should follow the [guidelines](#contribution-guidelines) below to be successful. Don't forget to add [GSoC mentors and student](#maintainers-and-contributors) as reviewers for your pull request.
 
 Once you've made a pull request, it will be reviewed by at least one of the project maintainers or contributors. If any changes are required, the reviewer will make requested changes on the pull request. In this case, you should address the requested changes so that the pull request will be approved. When the pull request is approved, it will be merged onto the project.
+
+### Contribution Guidelines
+
+#### Pull Requests
+
+Pull requests to the project should follow this format:
+```
+fix #<number of issue>: <brief summary>
+
+* Commit summary 1
+* Commit summary 2
+```
+
+Following this format makes your pull request easier to review and more likely to be approved.
+
+#### Commit Conventions
+
+Commit messages should follow this format:
+```
+fix #<number of issue>: <brief summary>
+
+* Bulletpoint 1
+* Bulletpoint 2
+```
+
+#### Unit Tests
+
+Unit tests are included on this project, and they are passing on a clean slate. If you would like to contribute by writing unit tests, your additional unit tests should also pass on a clean late.
+
+If you are adding a new feature to the project, ensure that the current unit tests still pass. If your new feature is not covered by the current unit tests, it is ideal to include unit tests for your feature.
+
+#### Linter
+
+This project is equipped with a linter to help keep the code clean and consistent. Your pull request should have no lint warnings except where applicable (e.g. `TODO`, `FIXME`). Even then, your pull request should avoid adding `TODO`s and `FIXME`s unless absolutely necessary.
 
 ### Getting Help
 
