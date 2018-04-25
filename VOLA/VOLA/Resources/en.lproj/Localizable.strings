@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  VOLA
+
+  Created by Connie Nguyen on 6/7/17.
+  Copyright © 2017 Systers-Opensource. All rights reserved.
+*/
+
+// Error
+"error.invalid-facebook-token" = "Request not completed due to invalid Facebook access token.";
+"error.invalid-facebook-response" = "Could not cast Facebook response to [String: Any].";
+"error.invalid-google-user" = "Could not log in with this Google account.";
+"error.not-logged-in" = "Action could not be completed because user is not logged in.";
+"error.invalid-firebase-auth" = "Action could not be completed due to invalid Firebase auth object.";
+"error.invalid-email" = "Please provide a valid email address.";
+"error.invalid-name" = "Please enter your first and last name.";
+"error.invalid-password" = "Please enter a password that is at least 8 characters long and includes a lowercase, uppercase, and a number.";
+"error.invalid-confirm" = "Passwords do not match.";
+"error.invalid-required" = "Please complete required field.";
+"error.invalid-TOS" = "Invalid URL for ABI terms of service.";
+"error.invalid-privacy" = "Invalid URL for ABI privacy policy";
+"error.validation" = "Invalid Input";
+"error.user-update" = "Cannot update user.";
+"error.existing-activity-indicator" = "This view controller already has an existing activity indicator.";
+"error.etouches-no-data" = "Could not retrieve data from eTouches.";
+"error.load-json-data" = "Could not load JSON data from file.";
+"error.invalid-url" = "Could not open URL";
+"error.load-plist-data" = "Could not open .plist file";
+"error.secret-key" = "Could not access secret key";
+"error.invalid-firebase-action" = "Could not complete action on Firebase.";
+"error.minimum-connected-logins" = "Your account must have at least one login provider attached to it.";
+"error.failed-user-snapshot" = "Failed to initialize User from Firebase snapshot.";
+"error.failed-user-firebase" = "Failed to initalize User from Firebase user object.";
+"error.failed-snapshot" = "Failed to read data from Firebase snapshot";
+
+// Generic
+"confirm-password.title.label" = "Confirm Password";
+"email.title.label" = "Email Address";
+"first-name.title.label" = "First Name";
+"last-name.title.label" = "Last Name";
+"name.title.label" = "Name";
+"title.title.label" = "Title";
+"affiliation.title.label" = "Company/ Organization";
+"password.title.label" = "Password";
+"yes-short.prompt.label" = "Y";
+"no-short.prompt.label" = "N";
+"default-name.label" = "Default Name";
+"cancel.prompt.label" = "Cancel";
+"login-required.title.label" = "Login Required";
+"login-required.prompt.label" = "You must be logged in to continue.";
+
+// ConnectedLoginCell
+"connected-status.title.label" = "Connected";
+"not-connected-status.title.label" = "Not Connected";
+
+// ConnectEmailViewController
+"connect-email.title.label" = "Connect Email Login";
+"connect-email.prompt.label" = "Connect Email";
+
+// EditProfileViewController
+"edit-profile.title.label" = "Edit Profile";
+"save-changes.prompt.label" = "Save Changes";
+"save-error.title.label" = "Edit Profile Error";
+
+// EventRegistrationViewController
+"registration.title.label" = "Event Registration";
+"event.title.label" = "Event Title";
+"registration-login.title.label" = "Log in to pre-fill your information and save this to your events.";
+"registration-login.prompt.title.label" = "Log in";
+"accommodations.title.label" = "Special Accommodations";
+"accommodations-description.title.label" = "Please inform event organizers if you need any special accommodation such as accessibility issues or allergies";
+"volunteer.prompt.label" = "I would like to volunteer at this event.";
+"register.prompt.label" = "Register";
+"registration-error.title.label" = "Registration Error";
+
+// EventDetailViewController
+"event-detail.title.label" = "Event Detail";
+
+// EventTableViewController
+"calendar.title.label" = "Calendar";
+
+// HomeContainerViewController
+"list.prompt.label" = "List";
+"map.prompt.label" = "Map";
+"search.prompt.label" = "Search for events";
+
+// HomeViewController
+"home.title.label" = "Home";
+"login.prompt.label" = "Log In";
+"logout.prompt.label" = "Log Out";
+
+// IntroductionViewController
+"skip.prompt.label" = "Skip";
+"slide-0.title.label" = "Get Started";
+"slide-0.detail.label" = "Easily login using a social profile like Facebook or Google.";
+"slide-1.title.label" = "Autofill Forms";
+"slide-1.detail.label" = "Quickly register for events with details autofilled from your profile.";
+"slide-2.title.label" = "Track Events";
+"slide-2.detail.label" = "View events registered with your profile.";
+
+// LoginManualViewController
+"login-alternative.title.label" = "If you haven't created an account yet, sign up now or use a social login instead.";
+
+// LoginsManagerTableViewController
+"login-manager.title.label" = "Manage Logins";
+"add-login-error.title.label" = "Add Login Error";
+"remove-login-error.title.label" = "Remove Login Error";
+
+// LoginViewController
+"enable-event-login.title.label" = "Enable quick event registration and saved events by logging in";
+"signup.title.label" = "Don't have a Vola account yet? Sign up now.";
+"signup.prompt.title.label" = "Sign up now.";
+"login-facebook.prompt.label"  = "Log in with Facebook";
+"login-email.prompt.label" = "Log in with Email";
+"login-error.title.label" = "Log In Error";
+
+// MapViewController
+"edit-location-settings.title.label" = "Allow Location Access";
+"edit-location-settings.prompt.label" = "Allow VOLA access to your location to easily find events in your area.";
+"edit-settings.prompt.label" = "Edit Settings";
+
+// ProfileViewController
+"profile.title.label" = "Profile";
+"first-last.title.label" = "Firstname Lastname";
+"sample-email.title.label" = "email@address.org";
+"not-logged-in.title.label" = "You are not logged in";
+"login-to-view.title.label" = "Log in to view your profile, enable quick event registration, and view your registered events.";
+
+// SettingsTableViewController
+"settings.title.label" = "Settings";
+"manage-logins.prompt.label" = "Manage connected logins";
+
+// SignUpViewController
+"create-account.title.label" = "Create an account to view and manage volunteer opportunities in your area.";
+"signup.prompt.label" = "Sign Up";
+"signup-agree.title.label" = "By signing up you agree to the Terms of Service. You can also view the Privacy Policy.";
+"tos.title.label" = "Terms of Service.";
+"privacy.title.label" = "Privacy Policy.";
+"signup-error.title.label" = "Sign Up Error";
+
+// ThemeManagementCell
+"theme.title.label" = "Theme";
+"default-theme.title.label" = "Default";
+"colorblind-theme.title.label" = "Colorblind";
